@@ -14,7 +14,7 @@ if (req.url=="/api/hello")
    //const randomn=Math.random()*20;
    const randomn = Math.trunc(Math.random()*100)+1;
 
-res.end( 'The Random number between 1 and 100 is :            ' +randomn.toString());
+res.end( ' The Random number between 1 and 100 is :            ' +randomn.toString());
 }
 else{
     res.end('Hello, World');
